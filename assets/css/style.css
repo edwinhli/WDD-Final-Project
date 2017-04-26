@@ -1,0 +1,115 @@
+body {
+  font-family: 'Antic', sans-serif;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+#left {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+#button {
+  background-color: white;
+  border: none;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: 'Antic', sans-serif;
+}
+
+#akpsi {
+  width: 150px;
+  padding-right: 100%;
+  padding-bottom: 0%;
+}
+
+.container2 {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 28%;
+  padding-bottom: 10%;
+}
+
+#crest {
+  width: 250px;
+}
+
+.tableofcontents {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#right {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  float: right;
+}
+
+#city {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#left2 {
+  width: 15%;
+  height: 100%;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+#backbutton {
+  width: 50px;
+  padding-left: 30%;
+  padding-right: 50%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+#right2 {
+  width: 80%;
+  height: 100%;
+  display: inline-block;
+  float: right;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  object-fit: cover;
+}
+
+.photo2 {
+  width: 200px;
+  height: 200px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  object-fit: cover;
+  position: relative;
+}
+
+.transition {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 1.1s;
+}
